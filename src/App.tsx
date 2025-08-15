@@ -110,7 +110,7 @@ export const App: React.FC = () => {
         {showReset && (
           <button
             type="button"
-            className="button is-danger is-light"
+            className="button is-active-reset "
             onClick={handleReset}
           >
             Reset
